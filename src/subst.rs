@@ -50,7 +50,7 @@ impl Debug for Var {
 ///
 #[derive(Default, Clone, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Subst {
-    pub(crate) vec: smallvec::SmallVec<[(Var, Id); 3]>,
+    pub vec: smallvec::SmallVec<[(Var, Id); 3]>,
 }
 
 impl Subst {
