@@ -344,7 +344,7 @@ where
     }
 }
 
-pub(crate) fn apply_pat<L: Language, A: Analysis<L>>(
+pub fn apply_pat<L: Language, A: Analysis<L>>(
     ids: &mut [Id],
     pat: &[ENodeOrVar<L>],
     egraph: &mut EGraph<L, A>,
