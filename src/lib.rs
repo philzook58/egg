@@ -82,7 +82,7 @@ pub use {
     explain::{Explanation, FlatExplanation, FlatTerm, TreeExplanation, TreeTerm},
     extract::*,
     language::*,
-    pattern::{ENodeOrVar, Pattern, PatternAst, SearchMatches},
+    pattern::{ENodeOrVar, Pattern, PatternAst, SearchMatches, apply_pat},
     rewrite::{Applier, Condition, ConditionEqual, ConditionalApplier, Rewrite, Searcher},
     run::*,
     subst::{Subst, Var},
