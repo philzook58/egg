@@ -37,7 +37,7 @@ mod explain;
 mod extract;
 mod language;
 mod machine;
-mod pattern;
+pub mod pattern;
 mod rewrite;
 mod run;
 mod subst;
